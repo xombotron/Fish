@@ -1,0 +1,412 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1666194270360164, "dur": 286956, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666194270360588, "dur": 5234, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666194270365823, "dur": 267663, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666194270633488, "dur": 13631, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666194270647930, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1666194270392460, "dur":952, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270393421, "dur":99, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666194270393552, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666194270393569, "dur":325, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666194270393932, "dur":866, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270394798, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270615945, "dur":161, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616106, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616123, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616125, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616128, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616130, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616135, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616136, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616143, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616144, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616147, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616148, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616152, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616153, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616156, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616157, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616161, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616199, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270616238, "dur":1594, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666194270394292, "dur":526, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270394819, "dur":4348, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399172, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399175, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399244, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399246, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399307, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399361, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399409, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399467, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399557, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399599, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399673, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399714, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399774, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399820, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399867, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399913, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399954, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270399996, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400038, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400080, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400124, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400167, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400206, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400244, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400281, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400404, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400493, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400584, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270400636, "dur":1363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270402000, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270402052, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270402750, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270402803, "dur":22048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270424852, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270424933, "dur":701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270425634, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270425699, "dur":33655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459355, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459431, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459475, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459515, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459558, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459594, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459630, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459664, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459699, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459735, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459773, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459811, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459848, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459883, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459922, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459958, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270459996, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270460030, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270460067, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270460102, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270460138, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270460175, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270460215, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270460252, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270460288, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270460325, "dur":80703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666194270541028, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666194270541084, "dur":74832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270394555, "dur":396, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270394951, "dur":4265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399216, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399307, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399366, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399425, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399468, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2.exe" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399516, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399667, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399713, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399763, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399815, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399850, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399891, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399930, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270399969, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400010, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400052, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400094, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400136, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400175, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400217, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400272, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400394, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400471, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400516, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270400560, "dur":43996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270444557, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270444617, "dur":171219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666194270615837, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666194270615901, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1666194270615902, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666194270394371, "dur":491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666194270394862, "dur":4352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399214, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399302, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399354, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399411, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399454, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399503, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399601, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399699, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399746, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399789, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666194270399831, "dur":116269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666194270516102, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666194270516172, "dur":99743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270394490, "dur":420, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270394911, "dur":4280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399191, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399299, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399353, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399405, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399452, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399498, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399560, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399602, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399676, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399718, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399763, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399820, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399863, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399905, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399947, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270399986, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270400027, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270400068, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270400108, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270400150, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270400189, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270400228, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270400270, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270400406, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270400540, "dur":1346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270401886, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270401955, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270402646, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270402855, "dur":1714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270404570, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270404905, "dur":22524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270427430, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270427497, "dur":67252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666194270494750, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270494808, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666194270494857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270494862, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666194270496235, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1666194270496283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270496287, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1666194270497188, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1666194270497232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270497235, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1666194270498077, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666194270498121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270498125, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666194270498913, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666194270498959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270498963, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666194270499815, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1666194270499860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666194270499882, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1666194270500769, "dur":115148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270394585, "dur":393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270394978, "dur":4190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399172, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399251, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399306, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399365, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399409, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399466, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399511, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399553, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399592, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399663, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399707, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399753, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399803, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399840, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399877, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399918, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399953, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270399996, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270400038, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270400080, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270400123, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270400164, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270400206, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270400244, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270400283, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270400404, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270400583, "dur":32777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270433360, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270433437, "dur":25942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459379, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459439, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459485, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459522, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459569, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459608, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459649, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459687, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459726, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459762, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459798, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459836, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459874, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459908, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459945, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270459980, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270460015, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270460051, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270460088, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270460125, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270460165, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270460203, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270460240, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270460274, "dur":116869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666194270577144, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666194270577200, "dur":38742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270394634, "dur":377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270395011, "dur":4205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399216, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399308, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399366, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399421, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399468, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399559, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399602, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399678, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399718, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399765, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399819, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399863, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399906, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399947, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270399992, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400033, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400078, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400125, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400169, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400216, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400259, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400357, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400388, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400450, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400489, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400528, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270400562, "dur":1225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270401787, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270401831, "dur":53876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270455707, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270455783, "dur":42636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666194270498419, "dur":627, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270499047, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1666194270499098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666194270499102, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1666194270500727, "dur":115216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270394714, "dur":327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270395041, "dur":4172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399214, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399293, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399339, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399392, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399432, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399473, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399601, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399698, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399746, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399792, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399831, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399876, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399920, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666194270399963, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400003, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400045, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400086, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400125, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400170, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400216, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400261, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400303, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400401, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400477, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270400516, "dur":66317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666194270466834, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270466911, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1666194270467022, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270467069, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1666194270467121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270467596, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1666194270470100, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666194270470144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270470148, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666194270470844, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270470884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270470888, "dur":7107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270478032, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666194270478077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270478082, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666194270479003, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270479044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270479048, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270479915, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666194270479957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270479961, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666194270480603, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270480643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270480647, "dur":8199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270488916, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666194270488969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270488975, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666194270489860, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270489903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270489909, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270491465, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666194270491504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270491509, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666194270493102, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1666194270493210, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270493252, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1666194270494041, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270494090, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270494137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270494143, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270496640, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270496683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270496687, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666194270497442, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1666194270497484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270497487, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1666194270498180, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1666194270498220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270498224, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1666194270499030, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1666194270499071, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270499074, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"FishBassPro3Official/gameworld 2_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1666194270499857, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1666194270499966, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666194270500008, "dur":115910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270394782, "dur":289, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270395071, "dur":4119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399191, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399296, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399353, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399406, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399453, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399511, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399587, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399672, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399712, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399761, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399808, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399847, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399890, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399937, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270399987, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270400028, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270400068, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270400108, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270400150, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270400189, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270400228, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270400270, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270400404, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270400493, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270400539, "dur":168439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles FishBassPro3Official/gameworld 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666194270568979, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666194270569033, "dur":46884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666194270619288, "dur":1577, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1666194270648066, "dur": 923, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666194270647913, "dur": 1112, "ph": "X", "name": "Write chrome-trace events", "args": {} },
